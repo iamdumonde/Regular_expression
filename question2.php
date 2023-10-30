@@ -9,3 +9,5 @@ Le numéro de téléphone (123) 555-6789 de certains clients
 Le numéro de téléphone 123-456-7890 123 456 7890 123.456.7890 de certains clients
 Text;
 
+// [\(?\d{3}+\?.]
+
