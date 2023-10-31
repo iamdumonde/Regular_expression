@@ -78,7 +78,8 @@ Ce sont justes des parenthèses "()" utilisées pour définir des sous-parties d
 
 ## Exercice 3
 
-<!-- [aA-zZ0-9]*@gmail.com : sélectionne les addresses emails
+<!-- 
+[aA-zZ0-9]*@gmail.com : sélectionne les addresses emails
 [a-zA-Z0-9]+@gmail\.com
 [a-zA-Z0-9-_]+@gmail\.com 
 [a-zA-Z0-9-_]+@[a-z]+\.com

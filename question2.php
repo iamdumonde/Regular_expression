@@ -10,4 +10,9 @@ Le numéro de téléphone 123-456-7890 123 456 7890 123.456.7890 de certains cli
 Text;
 
 // [\(?\d{3}+\?.]
+$regex = "/\(?\d{3}\)?./";
+
+preg_match_all($regex, $str, $matches);
+
+print_r($matches);
 
