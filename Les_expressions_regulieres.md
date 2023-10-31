@@ -1,3 +1,5 @@
+## OMEGLE website
+
 ## Expressions régulières
 (?<=Nom du patient: ).+
 ## .+
@@ -69,7 +71,7 @@ En voici quelques-uns :
 ### Autres métacaractères
 - `\w` : correspond aux caractères alphanumériques en plus du "_" (tiret de 8). [a-z-A-Z0-9_]
 - `\W` : contraire de \w 
-- `\s` : correspond à un espace.
+- `\s` : correspond à un espace, à  des retours à la ligne.
 - `\S` : contraire de \s.
 - `\d` : conrrespond à un chiffre. [0-9]
 

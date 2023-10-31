@@ -12,7 +12,8 @@ email adresse david.miller@gmail.com adresse mail
 email adresse lisa.and_erson@example.net adresse mail
 email adresse brian_wilson@yahoo.uk adresse mail
 Text;
-// [\w\-_.]+@[\w]+\.[a-z]+
-$regex = "/[a-zA-Z0-9-_.]+@[a-zA-Z]+\.[a-z]+/";
+// [\w\-_.]+@[\w]+\.[a-zA-Z]+
+// 
+$regex = "/[a-zA-Z0-9-_.]+@[a-zA-Z0-9_]+\.[a-zA-Z]+/";
 preg_match_all($regex, $str, $matches);
 print_r($matches);
